@@ -15,7 +15,7 @@ describe('example1', () => {
     });
 });
 
-//TDD
+//TDD - test Driven development
 
  //const {suite, test} = require('mocha')
 suite('suite1',() =>{
