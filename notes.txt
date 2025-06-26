@@ -1,0 +1,19 @@
+TDD
+
+Test Driven Process
+1.write a test, (create test.js and  index/app.js - without code implemented)
+2.run the test to Fail,
+3.put in the implementation code for it to pass and,( correct code/ with code in app/index.js)
+4.refactor your code.
+
+npm init -y
+npm install mocha chai --save-dev
+
+create app/index.js
+And create test.js
+
+changes in package.json
+"scripts": {
+    "test": "mocha", //npm test
+    "tests": "mocha" //npm run tests
+  },
